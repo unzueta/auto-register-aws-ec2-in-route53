@@ -108,7 +108,8 @@ region= your region
 ```
 9. to execute the script:
 ```
-$ sudo su /usr/sbin/update-route53-dns
+$ sudo su - 
+/usr/sbin/update-route53-dns
 ```
 
 
