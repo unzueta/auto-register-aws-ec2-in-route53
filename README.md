@@ -1,6 +1,8 @@
 # auto-register-aws-ec2-in-route53
 
 This repository explains the steps to auto-register an ec2 instance in route53 that belong to different accounts. This is for a linux aws image.
+Based on http://www.esentri.com/blog/2017/04/20/auto-register-ec2-instance-in-aws-route-53/
+
 1. Get the Id of the zone
 2. Create a new custom IAM Policy for a restricted Route 53 Access
 ```
